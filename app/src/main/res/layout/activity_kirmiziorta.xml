@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kirmiziorta">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout5"
+        android:layout_width="427dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/skorKotext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zamanKOtext">
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kirmizi" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/zamanKOtext"
+        android:layout_width="414dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="62dp"
+        android:text="Zaman: 0"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/skorKotext"
+        android:layout_width="170dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="12dp"
+        android:text="SKOR: 0"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bestscoreKO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout5" />
+
+    <TextView
+        android:id="@+id/bestscoreKO"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="2dp"
+        android:text="En Yüksek:"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/skorKotext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/skorKotext"
+        app:layout_constraintTop_toTopOf="@+id/skorKotext" />
+</androidx.constraintlayout.widget.ConstraintLayout>

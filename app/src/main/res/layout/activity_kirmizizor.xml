@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kirmizizor">
+
+    <TextView
+        android:id="@+id/skorKZtext"
+        android:layout_width="166dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="34dp"
+        android:text="Skor:0"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bestscoreKZ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout6" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout6"
+        android:layout_width="301dp"
+        android:layout_height="397dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="61dp"
+        app:layout_constraintBottom_toTopOf="@+id/skorKZtext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zamanKZtext">
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageVie4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="3"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="3"
+            app:srcCompat="@drawable/kirmizi" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="3"
+            app:srcCompat="@drawable/kirmizi" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/zamanKZtext"
+        android:layout_width="371dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="39dp"
+        android:text="Zaman :0"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bestscoreKZ"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="33dp"
+        android:text="En Yüksek:"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/skorKZtext" />
+</androidx.constraintlayout.widget.ConstraintLayout>

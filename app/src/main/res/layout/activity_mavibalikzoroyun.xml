@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mavibalikzoroyun">
+
+    <TextView
+        android:id="@+id/skorMZtext"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="57dp"
+        android:text="Skor :0"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bestscoreMZ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zamanMZtext" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="86dp"
+        app:layout_constraintBottom_toTopOf="@+id/bestscoreMZ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zamanMZtext">
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_row="3"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_row="3"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_row="3"
+            app:srcCompat="@drawable/mavi" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/zamanMZtext"
+        android:layout_width="236dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="501dp"
+        android:text="Zaman :0"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/skorMZtext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bestscoreMZ"
+        android:layout_width="159dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="59dp"
+        android:text="En Yüksek:"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/skorMZtext"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_choosecolor.xml" value="0.25" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_hamsiorta.xml" value="0.3177083333333333" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_hamsizorluk.xml" value="0.333786231884058" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_kirmizibalikkolay.xml" value="0.33" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_kirmizibalikzorluk.xml" value="0.3188405797101449" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_kirmizikolay.xml" value="0.3359375" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_kirmiziorta.xml" value="0.33469202898550726" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_kirmizizor.xml" value="0.33469202898550726" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_kolayhamsi.xml" value="0.333786231884058" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_mavibalikkolayoyun.xml" value="0.33" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_mavibalikortaoyun.xml" value="0.25" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_mavibalikzorluk.xml" value="0.25" />
+        <entry key="..\:/yakalabalik/app/src/main/res/layout/activity_mavibalikzoroyun.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

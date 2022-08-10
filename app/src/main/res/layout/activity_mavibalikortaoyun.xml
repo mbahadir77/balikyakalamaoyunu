@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mavibalikortaoyun">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/bestscoreMO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zamanMOtext">
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="125sp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="0"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="125sp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="0"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="125sp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="0"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="125sp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="1"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="125sp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="1"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="125sp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="1"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="125sp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="2"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="125sp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="2"
+            app:srcCompat="@drawable/mavi" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="125sp"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="skorartir"
+            app:layout_column="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_row="2"
+            app:srcCompat="@drawable/mavi" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/zamanMOtext"
+        android:layout_width="287dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="47dp"
+        android:text="ZAMAN = 10"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/skorMOtext"
+        android:layout_width="184dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="25dp"
+        android:text="SKOR : 0"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bestscoreMO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bestscoreMO" />
+
+    <TextView
+        android:id="@+id/bestscoreMO"
+        android:layout_width="183dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="67dp"
+        android:text="En Yüksek Skor : 0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/skorMOtext"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
